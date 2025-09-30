@@ -17,6 +17,9 @@ public class ProdutoModel {
 
     private String description;
 
+    public ProdutoModel(){
+
+    }
 
     public ProdutoModel(String name, Double price, String description) {
         this.name = name;
